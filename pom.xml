@@ -2,6 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>us.bryon</groupId>
+        <artifactId>bryon-oss-parent</artifactId>
+        <version>1-SNAPSHOT</version>
+    </parent>
+
     <groupId>us.bryon</groupId>
     <artifactId>relaxng-maven-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -9,6 +15,12 @@
 
     <name>RelaxNG Maven Plugin</name>
     <description>plugin for validating and transforming RelaxNG schemas</description>
+
+    <scm>
+        <connection>scm:git:git@github.com:bryonjacob/relaxng-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:bryonjacob/relaxng-maven-plugin.git</developerConnection>
+        <url>git@github.com:bryonjacob/relaxng-maven-plugin.git</url>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -28,17 +40,6 @@
         </dependency>
     </dependencies>
 
-    <developers>
-        <developer>
-            <name>Bryon Jacob</name>
-            <email>bryon@jacobtx.net</email>
-            <timezone>-6</timezone>
-            <roles>
-                <role>developer</role>
-            </roles>
-        </developer>
-    </developers>
-
     <build>
         <plugins>
             <plugin>
@@ -51,15 +52,6 @@
                         <version>2.6</version>
                     </dependency>
                 </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.0.2</version>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
