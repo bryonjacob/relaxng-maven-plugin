@@ -1,4 +1,4 @@
-package com.homeaway;
+package us.bryon;
 
 import com.thaiopensource.relaxng.translate.Driver;
 import org.apache.maven.plugin.AbstractMojo;
