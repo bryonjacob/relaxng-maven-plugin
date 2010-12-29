@@ -1,0 +1,24 @@
+-classpath
+'/Volumes/personal/working/relaxng-maven-plugin/target/checkout/target/classes:/Users/bjacob/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar:/Users/bjacob/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/bjacob/.m2/repository/com/thaiopensource/trang/20091111/trang-20091111.jar:/Users/bjacob/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/bjacob/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/bjacob/.m2/repository/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.jar:/Users/bjacob/.m2/repository/isorelax/isorelax/20030108/isorelax-20030108.jar:/Users/bjacob/.m2/repository/net/sf/saxon/saxon/8.7/saxon-8.7.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Volumes/personal/working/relaxng-maven-plugin/target/checkout/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2010. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'/Volumes/personal/working/relaxng-maven-plugin/target/checkout/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'RelaxNG Maven Plugin 1.0 API'
+-link
+'http://java.sun.com/javase/6/docs/api'
+-use
+-version
+-windowtitle
+'RelaxNG Maven Plugin 1.0 API'
