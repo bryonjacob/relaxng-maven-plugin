@@ -1,113 +1,131 @@
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-
-
-
-
-
-
-
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <title>RelaxNG Maven Plugin - Surefire Report</title>
-    <style type="text/css" media="all">
-      @import url("./css/maven-base.css");
-      @import url("./css/maven-theme.css");
-      @import url("./css/site.css");
-    </style>
+    <link rel="stylesheet" href="./css/maven-theme.css" type="text/css" />
+    <link rel="stylesheet" href="./css/maven-base.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/prettify.css" type="text/css"/>
     <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-      </head>
-  <body class="composite">
-    <div id="banner">
-                    <span id="bannerLeft">
+    <script type="text/javascript" src="./js/prettify.js"></script>
+    <script type="text/javascript" src="./js/niftycube.js"></script>
+    <script type="text/javascript">
+        window.onload=function() {
+            Nifty("div\#wrapper", "big");
+            Nifty("div#breadcrumbs", "small");
+            Nifty("div\#navcolumn", "small");
+            Nifty("div.source", "medium");
+            prettyPrint();
+        }
+    </script>
+          </head>
+  <body>
+    <div id="wrapper">
+        <div id="banner">
+                        <div id="bannerLeft">
     
             RelaxNG Maven Plugin
     
-            </span>
-                    <div class="clear">
-        <hr/>
-      </div>
-    </div>
-    <div id="breadcrumbs">
-          
+            </div>
+                            <div class="clear">
+            <hr/>
+          </div>
+        </div>
+        <div id="breadcrumbs">
+              
   
 
   
     
-  
+    
   
     
             <div class="xleft">
-        Last Published: 2010-12-29
+        <span id="publishDate">Last Published: 2011-01-02</span>
+                  &nbsp;| <span id="projectVersion">Version: 1.2-SNAPSHOT</span>
                       </div>
-            <div class="xright">            <a href="">RelaxNG Maven Plugin</a>
-            
+                <div class="xright">      
   
 
   
     
-  
+    
   
     
   </div>
-      <div class="clear">
-        <hr/>
-      </div>
-    </div>
-    <div id="leftColumn">
-      <div id="navcolumn">
-           
+          <div class="clear">
+            <hr/>
+          </div>
+        </div>
+        <div id="leftColumn">
+          <div id="navcolumn">
+               
   
 
   
     
-  
+    
   
     
-                             <h5>Project Documentation</h5>
+                       <h5>Overview</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="index.html">Getting Started</a>
+          </li>
+              
+    <li class="none">
+                    <a href="releases.html">Release Notes</a>
+          </li>
+          </ul>
+              <h5>Goals</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="trang-mojo.html">relaxng:trang</a>
+          </li>
+              
+    <li class="none">
+                    <a href="plugin-info.html">All Goals</a>
+          </li>
+          </ul>
+              <h5>Project Documentation</h5>
             <ul>
               
                 
-              
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
-            
-      
+                    
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
               
         <li class="collapsed">
                     <a href="project-info.html">Project Information</a>
                 </li>
               
                 
-              
-      
-            
-      
-            
-      
-            
-            
+                    
+                  
+                  
+                  
+                        
+                  
+                  
               
             <li class="expanded">
                     <a href="project-reports.html">Project Reports</a>
@@ -122,31 +140,48 @@
           </li>
                   
     <li class="none">
+                    <a href="plugin-info.html">Plugin Documentation</a>
+          </li>
+                  
+    <li class="none">
                     <a href="xref/index.html">Source Xref</a>
           </li>
                   
     <li class="none">
               <strong>Surefire Report</strong>
         </li>
+                  
+    <li class="none">
+                    <a href="testapidocs/index.html">Test JavaDocs</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="xref-test/index.html">Test Source Xref</a>
+          </li>
               </ul>
         </li>
           </ul>
-                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
-            <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+                                               <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img class="poweredBy"
+                 alt="Built by Maven"
+                 src="./images/logos/maven-feather.png"
+                 width="90"
+                 height="30"
+                 border="1" />
           </a>
-                       
+                           
   
 
   
     
-  
+    
   
     
+            </div>
         </div>
-    </div>
-    <div id="bodyColumn">
-      <div id="contentBox">
-        <script type="text/javascript">
+        <div id="bodyColumn">
+          <div id="contentBox">
+            <script type="text/javascript">
 function toggleDisplay(elementId) {
  var elm = document.getElementById(elementId + 'error');
  if (elm && typeof elm.style != "undefined") {
@@ -163,7 +198,8 @@ function toggleDisplay(elementId) {
 </script><div class="section"><h2>Surefire Report</h2>
 </div>
 <div class="section"><h2>Summary</h2>
-<a name="Summary"></a><br />
+<a name="Summary"></a><p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
+<br />
 <table class="bodyTable"><tr class="a"><th>Tests</th>
 <th>Errors </th>
 <th>Failures</th>
@@ -171,40 +207,102 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th>
 </tr>
-<tr class="b"><td>0</td>
+<tr class="b"><td>2</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
-<td>0</td>
+<td>100%</td>
+<td>0.742</td>
 </tr>
 </table>
 <br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p>
 <br />
 </div>
+<div class="section"><h2>Package List</h2>
+<a name="Package_List"></a><p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
+<br />
+<table class="bodyTable"><tr class="a"><th>Package</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th>
+</tr>
+<tr class="b"><td><a href="#us.bryon">us.bryon</a></td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.742</td>
+</tr>
+</table>
+<br />
+<p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p>
+<div class="section"><h3>us.bryon</h3>
+<a name="us.bryon"></a><table class="bodyTable"><tr class="a"><th></th>
+<th>Class</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th>
+</tr>
+<tr class="b"><td><a href="#us.bryonTrangMojoTest"><img src="images/icon_success_sml.gif" /></a></td>
+<td><a href="#us.bryonTrangMojoTest">TrangMojoTest</a></td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.742</td>
+</tr>
+</table>
+</div>
+<br />
+</div>
+<div class="section"><h2>Test Cases</h2>
+<a name="Test_Cases"></a><p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
+<div class="section"><h3>TrangMojoTest</h3>
+<a name="us.bryonTrangMojoTest"></a><table class="bodyTable"><tr class="a"><td><img src="images/icon_success_sml.gif" /></td>
+<td>testDirectoryExecution</td>
+<td>0.664</td>
+</tr>
+<tr class="b"><td><img src="images/icon_success_sml.gif" /></td>
+<td>testExplicitExecution</td>
+<td>0.054</td>
+</tr>
+</table>
+</div>
+<br />
+</div>
 
-      </div>
-    </div>
-    <div class="clear">
-      <hr/>
-    </div>
-    <div id="footer">
-      <div class="xright">&#169;  
-          2010
+          </div>
+        </div>
+        <div class="clear">
+          <hr/>
+        </div>
+        <div id="footer">
+          <div class="xright">Copyright &#169;         
+   
+          2011.
     
-          
+      All Rights Reserved.    
   
 
   
     
-  
+    
   
     
   </div>
-      <div class="clear">
-        <hr/>
-      </div>
+          <div class="clear">
+            <hr/>
+          </div>
+        </div>
     </div>
   </body>
 </html>
