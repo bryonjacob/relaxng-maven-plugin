@@ -1,0 +1,29 @@
+Release Notes
+
+* Release 1.2 (2011-01-02)
+
+    * added unit tests
+
+    * added integration tests
+
+    * XSD is not a valid source type for trang - removed the option from the mojo
+
+    * added site descriptor, and alternate skin for maven site
+
+    * added "Getting Started" page to the site
+
+    * added "Release Notes" to the site
+
+    * updated version of plexus-utils to support maven-plugin-testing-harness
+
+    * added issue management link
+
+    * added LICENSE file
+
+* Release 1.1 (2010-12-29)
+
+    * cleaned up project
+
+* Release 1.0 (2010-12-29)
+
+    * initial release

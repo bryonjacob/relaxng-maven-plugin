@@ -1,0 +1,27 @@
+<verifications xmlns="http://maven.apache.org/verifications/1.0.0"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://maven.apache.org/verifications/1.0.0 http://maven.apache.org/xsd/verifications-1.0.0.xsd">
+    <files>
+        <file>
+            <location>target/test-projects/test-trang-directory/target/trang/foo.xsd</location>
+        </file>
+        <file>
+            <location>target/test-projects/test-trang-directory/target/trang/foo.rng</location>
+        </file>
+        <file>
+            <location>target/test-projects/test-trang-directory/target/trang/foo.rnc</location>
+            <exists>false</exists>
+        </file>
+        <file>
+            <location>target/test-projects/test-trang-explicit/target/foo.xsd</location>
+        </file>
+        <file>
+            <location>target/test-projects/test-trang-explicit/target/foo.rng</location>
+            <exists>false</exists>
+        </file>
+        <file>
+            <location>target/test-projects/test-trang-explicit/target/trang</location>
+            <exists>false</exists>
+        </file>
+    </files>
+</verifications>

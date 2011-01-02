@@ -1,0 +1,14 @@
+<project>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>us.bryon</groupId>
+                <artifactId>relaxng-maven-plugin</artifactId>
+                <configuration>
+                    <src>src/test/projects/test-trang-directory/src/main/schema</src>
+                    <dest>target/directory-test-output</dest>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

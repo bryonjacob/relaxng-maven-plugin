@@ -1,0 +1,31 @@
+Getting Started
+
+    This plugin manipulates RelaxNG schemas during your maven build.  It uses
+    {{{http://code.google.com/p/jing-trang/}Trang}} to translate between .rng (RelaxNG XML
+    formate), .rnc (RelaxNG Compact Format) and .xsd (XML Schema) based schemas.
+
+    The most basic usage of the plugin is to simply wire it into your POM and run the <<trang>>
+    goal:
+
++------
+    <plugins>
+        <plugin>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>${project.artifactId}</artifactId>
+            <version>${project.version}</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>trang</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+        ...
+    </plugins>
++------
+
+    By default all *.rng and *.rnc files in <<<src/main/schema>>> are translated with trang into
+    the other of those two formats, and into an XSD, (<<<src/main/schema/foo.rnc>>> will be
+    translated into <<<target/trang/foo.rng>>> AND <<<target/trang/foo.xsd>>>).  Read the full
+    documentation on {{{trang-mojo.html}relaxng:trang}} for all available options.

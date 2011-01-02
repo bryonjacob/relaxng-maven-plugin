@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://bryon.us/foo" xmlns:foo="http://bryon.us/foo">
+  <xs:element name="foo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="fu" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

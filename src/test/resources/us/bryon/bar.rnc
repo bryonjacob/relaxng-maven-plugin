@@ -1,0 +1,8 @@
+default namespace = "http://bryon.us/bar"
+
+start = Bar
+Bar =
+  element bar {
+    attribute barre { text },
+    text
+  }
