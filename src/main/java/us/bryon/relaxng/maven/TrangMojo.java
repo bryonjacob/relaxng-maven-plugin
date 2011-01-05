@@ -1,4 +1,4 @@
-package us.bryon;
+package us.bryon.relaxng.maven;
 
 import com.thaiopensource.relaxng.translate.Driver;
 import org.apache.maven.plugin.AbstractMojo;

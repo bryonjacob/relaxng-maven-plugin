@@ -1,4 +1,4 @@
-package us.bryon;
+package us.bryon.relaxng.maven;
 
 import java.io.File;
 

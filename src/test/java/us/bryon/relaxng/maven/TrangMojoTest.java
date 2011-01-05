@@ -1,4 +1,4 @@
-package us.bryon;
+package us.bryon.relaxng.maven;
 
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
 import org.codehaus.plexus.util.FileUtils;

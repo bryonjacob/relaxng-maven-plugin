@@ -29,3 +29,7 @@ Getting Started
     the other of those two formats, and into an XSD, (<<<src/main/schema/foo.rnc>>> will be
     translated into <<<target/trang/foo.rng>>> AND <<<target/trang/foo.xsd>>>).  Read the full
     documentation on {{{trang-mojo.html}relaxng:trang}} for all available options.
+
+======
+
+    <${project.artifactId} is licensed under the {{{/license.html}New BSD License}}.>
